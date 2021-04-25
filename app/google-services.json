@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "373182007727",
+    "project_id": "fir-push-notifications-2025b",
+    "storage_bucket": "fir-push-notifications-2025b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373182007727:android:dc12758d298e04c5a2075a",
+        "android_client_info": {
+          "package_name": "com.rubdev.applicationnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373182007727-k846772gpe00rljir7djb10clmmhi1mv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyjPtizIFVT5FgJPQb-KGfWBs7kNSWddo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373182007727-k846772gpe00rljir7djb10clmmhi1mv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

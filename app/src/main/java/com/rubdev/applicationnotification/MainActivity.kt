@@ -2,7 +2,9 @@ package com.rubdev.applicationnotification
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
+import com.google.firebase.iid.FirebaseInstanceId
 
 class MainActivity : AppCompatActivity() {
 
@@ -14,7 +16,10 @@ class MainActivity : AppCompatActivity() {
 
         btnSend = findViewById(R.id.button_send_notification)
         btnSend.setOnClickListener {
-
+            this.showNotification("1234", "BootCamp Android", "Kotlin Android curso")
         }
+
+        Log.i("**newToken", FirebaseInstanceId.getInstance().token.toString())
+
     }
 }
